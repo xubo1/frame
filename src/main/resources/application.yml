@@ -1,0 +1,11 @@
+server:
+  port: 8030
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    username: xbxb
+    password: P@ssword123
+    url: jdbc:mysql://101.89.134.32:23306/aodh?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
